@@ -3,7 +3,7 @@
 ## Bookcase – Scripts
 
 This repository contains various scripts used for the **Bookcase project** in  
-**DCSG2003 – Robuste og skalerbare tjenester (Spring 2026)**.
+**DCSG2003 Robuste og skalerbare tjenester (Spring 2026)**.
 
 ### About this repo
 
