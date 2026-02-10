@@ -1,0 +1,14 @@
+{
+  "dbhost" : "192.168.132.48",
+  "dbport" : "5433",
+  "db" : "bf",
+  "dbuser" : "choso",
+  "dbpassw" : "",
+  "webhost" : "10.212.171.10",
+  "frontpage_limit" : "3500",
+  "use_activity_cutoff_days" : "14",
+  "memcache_server" : "192.168.131.241", 
+  "memcache_enabled" : 1, 
+  "memcache_enabled_pictures" : 1
+}
+
