@@ -149,7 +149,7 @@ At the top of the script ensure you have:
 
 If you want to see the latest health‑check results every time you log into the server, add this to your `~/.bashrc`:
 
-````bash
+```bash
 echo "============ check-servers.log ==========="
 tail -n 20 /home/ubuntu/logs/check-servers.log
 echo "=========================================="
