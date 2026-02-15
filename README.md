@@ -1,6 +1,6 @@
 # DCSG2003
 
-## Robust and Scalable Services
+## 🦺Robust and Scalable Services
 
 This repository contains a small collection of helper scripts used in the course **DCSG2003 – Robust and Scalable Services**.
 
@@ -12,7 +12,7 @@ This repository does **not** contain the full BookFace codebase. Instead, it pro
 
 ---
 
-## Directory Structure & Requirements
+## 🏗️Directory Structure & Requirements
 
 For these utilities to work out of the box, the following layout is expected:
 
@@ -35,7 +35,7 @@ You are free to change this structure if you prefer, just update the paths insid
 
 ---
 
-## Included Tools
+## 🔨Included Tools
 
 ### `update_file`
 Compares two files and updates the destination only if the source has changed.  
@@ -50,7 +50,7 @@ A monitor script that keeps OpenStack servers alive and restarts the db in neces
 
 ---
 
-## Loading Functions Automatically
+## 🔄Loading Functions Automatically
 
 By default, Bash functions only exist in the shell session where they were defined.  
 If you want the functions in this repository (such as `update_file` and `update_scripts`) to be available every time you open a terminal, you must load them automatically.
@@ -69,7 +69,7 @@ After pulling new changes from Git, update your server-side scripts by running:
 update_scripts
 ```
 
-## 📄 Making Scripts Executable
+## 📄Making Scripts Executable
 
 All helper scripts in this repository must be **executable** before you can run them.  
 If a script is not executable Bash will refuse to run it with a “permission denied” error.
@@ -97,7 +97,7 @@ source ~/.bashrc
 
 From now on, the functions will be available globally without needing to source anything manually.
 
-# 🛠️ Adding the `check_if_alive_start.sh` Monitor Script
+## 🛠️Adding the `check_if_alive_start.sh` Monitor Script
 
 The script:
 - Pings all Ubuntu servers in your OpenStack project  
@@ -110,13 +110,13 @@ The script:
 This script is designed to run unattended in the background and keep the infrastructure alive.
 
 
-## 📌 Installing the Script
+### Installing the Script
 
 Place the script in:
 
 `/home/ubuntu/check_if_alive_start.sh`
 
-## ⏱️ Running the Script Automatically with Cron
+### Running the Script Automatically with Cron
 
 To make the script run periodically (for example, every 5 minutes), add it to your user’s crontab.
 
@@ -140,12 +140,12 @@ Add this line:
 
 ### Important
 
-Cron runs with a minimal environment, so your script must load your OpenStack credentials.  
-At the top of the script, ensure you have:
+Cron runs with a minimal environment so your script must load your OpenStack credentials.  
+At the top of the script ensure you have:
 
 `source /home/ubuntu/<your-openstack-rc-file>.sh`
 
-## 👀 Viewing Script Output Automatically When You SSH In
+### Viewing Script Output Automatically When You SSH In
 
 If you want to see the latest health‑check results every time you log into the server, add this to your `~/.bashrc`:
 
