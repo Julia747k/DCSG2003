@@ -30,6 +30,20 @@ For these utilities to work out of the box, the following layout is expected:
 ```
 /home/ubuntu/
 ```
+4. Additional automation tools such as the configuration watcher (`check_update.sh`) are also placed in:
+
+```
+/home/ubuntu/
+```
+
+Some tools rely on utilities like **inotify-tools**, which must be installed for file‑watching functionality.
+
+Short installation guide:
+```
+sudo apt update
+sudo apt install inotify-tools
+```
+
 
 You are free to change this structure if you prefer, just update the paths inside the scripts accordingly.
 
@@ -47,6 +61,9 @@ This only works if the repository is placed in the expected directory structure 
 
 #### `check_if_alive_start.sh`
 A monitor script that keeps OpenStack servers alive and restarts the db in necessary 
+
+#### `check_update.sh`
+A small file‑watcher utility that automatically reacts whenever our server‑side configuration file changes.
 
 ---
 
@@ -158,6 +175,8 @@ echo "=========================================="
 Reload your shell:
 
 `source ~/.bashrc`
+
+
 
 ---
 
