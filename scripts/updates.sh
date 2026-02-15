@@ -24,5 +24,4 @@ update_scripts(){
     		filename=$(basename "$file")
     		update_file "$file" "/home/ubuntu/$filename"
 	done
-
 }
