@@ -122,7 +122,7 @@ To make the script run periodically (for example, every 5 minutes), add it to yo
 
 Open the crontab editor:
 
-````bash
+```bash
      crontab -e
 ```
 
