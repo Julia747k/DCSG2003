@@ -37,15 +37,15 @@ You are free to change this structure if you prefer, just update the paths insid
 
 ## 🔨Included Tools
 
-### `update_file`
+#### `update_file`
 Compares two files and updates the destination only if the source has changed.  
 Useful for keeping multiple directories in sync.
 
-### `update_scripts`
+#### `update_scripts`
 Iterates through all files in `~/DCSG2003/scripts/` and updates the corresponding files in `/home/ubuntu/`.
 This only works if the repository is placed in the expected directory structure described above.
 
-### `check_if_alive_start.sh`
+#### `check_if_alive_start.sh`
 A monitor script that keeps OpenStack servers alive and restarts the db in necessary 
 
 ---
