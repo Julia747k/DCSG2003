@@ -14,6 +14,8 @@ This repository does **not** contain the full BookFace codebase. Instead, it pro
 
 ## ⚙️Outdated Topology
 
+Topolgoy from Week 5
+
 <img width="1136" height="413" alt="image" src="https://github.com/user-attachments/assets/3ed79cf2-89c6-486f-bd1d-fb8ba7bb146e" />
 
 
