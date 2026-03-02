@@ -12,6 +12,10 @@ This repository does **not** contain the full BookFace codebase. Instead, it pro
 
 ---
 
+## ⚙️Outdated Topology
+
+<img width="1131" height="428" alt="image" src="https://github.com/user-attachments/assets/e7bbaba1-72d3-4a69-9892-0745d72fa111" />
+
 ## 🏗️Directory Structure & Requirements
 
 For these utilities to work out of the box, the following layout is expected:
