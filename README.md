@@ -150,13 +150,13 @@ To make the script run periodically (for example, every 5 minutes), add it to yo
 Open the crontab editor:
 
 ```bash
-     crontab -e
+crontab -e
 ```
 
 Add this line:
 
 ```bash
-    */5 * * * * /home/ubuntu/check_if_alive_start.sh >> /home/ubuntu/logs/check-servers.log 2>&1
+*/5 * * * * /home/ubuntu/check_if_alive_start.sh >> /home/ubuntu/logs/check-servers.log 2>&1
 ```
 
 ### What this does
