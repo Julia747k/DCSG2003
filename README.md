@@ -43,6 +43,7 @@ For these utilities to work out of the box, the following layout is expected:
 /home/ubuntu/
 ```
 
+
 Some tools rely on utilities like **inotify-tools**, which must be installed for file‑watching functionality.
 
 Short installation guide:
@@ -71,6 +72,8 @@ A monitor script that keeps OpenStack servers alive and restarts the db in neces
 
 #### `check_update.sh`
 A small file‑watcher utility that automatically reacts whenever our server‑side configuration file changes.
+
+//TODO: definition of viktig_shit.sh and all_backup.sh
 
 ---
 
